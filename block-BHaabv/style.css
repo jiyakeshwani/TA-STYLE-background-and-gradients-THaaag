@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #20222F;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 22px;
+}
+.para-1{
+    color: #4D5572;
+    font-size: 16px;
+    margin-left: 44px;
+    font-weight: 600;
+}
+h2{
+    color: #4D5572;
+    font-size: 16px;
+    margin-left: 800px;
+    margin-top: 32px;
+    font-weight: 600;
+}
+.icon{
+    background: linear-gradient(#4297BA, #40C699);
+    margin-top: 32px;
+    margin-right: 150px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.box1{
+    background-color: #252B43;
+    width: 200px;
+    height: 180px;
+    border-top: 4px solid #198FF5;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.flex2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 32px
+}
+.box2{
+    background-color: #252B43;
+    width: 300px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+    
+}
+.flex3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+.box{
+    border-top: 4px solid red;
+}
+.box0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box4{
+    display: flex;
+    justify-content: space-between;
+}
+h5{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.same{
+    color: #4D5572;
+    font-size: 18px;
+}
+h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
